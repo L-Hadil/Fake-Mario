@@ -1,4 +1,4 @@
-# My Awesome Game
+# Fake Mario Game
 
 ## How to Run
 

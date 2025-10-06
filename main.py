@@ -63,7 +63,7 @@ collect_sound = pygame.mixer.Sound(os.path.join(SOUNDS_DIR, "collect.wav"))
 # --- Game setup ---
 WINDOW_WIDTH, WINDOW_HEIGHT = 800, 600
 screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
-pygame.display.set_caption("My Awesome Game")
+pygame.display.set_caption("Fake Mario Game")
 
 bg_image = pygame.image.load(os.path.join(SPRITES_DIR, "background.png"))
 
@@ -74,7 +74,7 @@ big_font = pygame.font.SysFont(None, 72)
 def main_menu():
     options = ["Start Game", "Quit"]
     selected = 0
-    title_text = big_font.render("My Awesome Game", True, (255, 255, 255))
+    title_text = big_font.render("Fake Mario Game", True, (255, 255, 255))
     blink = True
     blink_timer = 0
 
